@@ -4,10 +4,14 @@ version = "0.1.0"
 description = "An autonomous multi-agent system built with Python and LangGraph that plans, researches, and writes SEO-optimized blogs."
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = [    "ddgs>=9.12.1",
+dependencies = [
+    "ddgs>=9.12.1",
     "dotenv>=0.9.9",
     "faiss-cpu>=1.13.2",
     "fastmcp>=3.2.0",
+    "google>=3.0.0",
+    "google-genai>=1.73.1",
+    "google-generativeai>=0.8.6",
     "langchain>=1.2.13",
     "langchain-community>=0.4.1",
     "langchain-mcp-adapters>=0.2.2",
@@ -18,4 +22,5 @@ dependencies = [    "ddgs>=9.12.1",
     "psycopg[binary,pool]>=3.3.3",
     "pymupdf>=1.27.2.2",
     "pypdf>=6.9.2",
-    "streamlit>=1.55.0",]
+    "streamlit>=1.55.0",
+]
